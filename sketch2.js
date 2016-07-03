@@ -24,6 +24,9 @@ function draw() {
 
 	}
 }
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+	}
 function display() {
 	stroke(42, randomGaussian(255, 255), 42, randomGaussian(255, 180));
 	fill(20, 240, 90);
@@ -72,3 +75,5 @@ function avoid(){
 	}   
 
 }
+
+
